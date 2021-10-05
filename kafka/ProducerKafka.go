@@ -11,8 +11,8 @@ var index = 13321
 
 func Producer(url string) {
 	w := &kafka.Writer{
-		Addr:     kafka.TCP("localhost:9092"),
-		Topic:    "first_topic",
+		Addr:     kafka.TCP("65.1.9.139:9092"),
+		Topic:    "prod.trell_crawler_profile",
 		Balancer: &kafka.LeastBytes{},
 	}
 
@@ -33,8 +33,8 @@ func Producer(url string) {
 func StartKafka() {
 
 	conf := kafka.ReaderConfig{
-		Brokers: []string{"localhost:9092"},
-		Topic:   "first_topic",
+		Brokers: []string{"65.1.9.139:9092"},
+		Topic:   "prod.trell_crawler_profile",
 		GroupID: "gi",
 	}
 

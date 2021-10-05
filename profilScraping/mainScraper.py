@@ -5,6 +5,7 @@ import requests
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 # from profileScraper import scrapData
+from webdriver_manager.firefox import GeckoDriverManager
 
 pattern = "https://sharechat.com/profile/"
 
@@ -16,8 +17,9 @@ def isMatch(string, sub_str):
         return True
 
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.minimize_window()
+option = webdriver.FirefoxOptions()
+option.headless = True
+driver = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=option)
 driver.get("https://sharechat.com")
 
 # Selecting specific language in this gujrati
