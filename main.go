@@ -1,77 +1,82 @@
 package main
 
 import (
+	"example/web-service-gin/config"
+	"example/web-service-gin/dbModel"
+	_ "example/web-service-gin/dbModel"
+	"example/web-service-gin/entities"
 	"example/web-service-gin/kafka"
+	"fmt"
 	"github.com/gin-gonic/gin"
+	"log"
 	"net/http"
 )
 
-// album represents data about a record album.
-type album struct {
-	ProfileName    string   `json:"profile_name"`
-	ProfileHandle  string   `json:"profile_handle"`
-	ProfileIconUrl string   `json:"profile_icon_url"`
-	TagLine        string   `json:"tag_line"`
-	Followers      string   `json:"followers"`
-	PostUrls       []string `json:"post_urls"`
-}
-
-type profileUrl struct {
-	ProfileUrls string `json:"profile_urls"`
-}
-
-var profileUrls = []profileUrl{
-	{},
-}
-
-// albums slice to seed record album data.
-var albums = []album{
-	{ProfileName: "God Cobra", ProfileHandle: "Blue Train", ProfileIconUrl: "John Coltrane", TagLine: "56.99", Followers: "32M"},
-}
-
-// getAlbums responds with the list of all albums as JSON.
-func getAlbums(c *gin.Context) {
-	c.IndentedJSON(http.StatusOK, albums)
+func getProfileDetails(c *gin.Context) {
+	db, err := config.GetDB()
+	if err !=nil{
+		fmt.Println(err)
+	}else {
+		profileDetailsModel := dbModel.ProfileDetailModel{Db: db}// models.ProductModel{Db:db,}
+		ProfileDetails, err := profileDetailsModel.FindAll()
+		if err !=nil{
+			fmt.Println(err)
+		}else {
+			c.IndentedJSON(http.StatusOK, ProfileDetails)
+		}
+	}
 }
 
 func getProfileUrls(c *gin.Context) {
-	c.IndentedJSON(http.StatusOK, profileUrls)
-
+	db, err := config.GetDB()
+	if err !=nil{
+		fmt.Println(err)
+	}else {
+		profileModel := dbModel.ProfileModel{Db: db}// models.ProductModel{Db:db,}
+		Profiles, err := profileModel.FindAll()
+		if err !=nil{
+			fmt.Println(err)
+		}else {
+			c.IndentedJSON(http.StatusOK, Profiles)
+		}
+	}
 }
-func postAlbums(c *gin.Context) {
-	var newAlbum album
+func postProfileDetails(c *gin.Context) {
+	var newProfile entities.ProfileDetails
 
 	// Call BindJSON to bind the received JSON to
-	// newAlbum.
-	if err := c.BindJSON(&newAlbum); err != nil {
+	if err := c.BindJSON(&newProfile); err != nil {
 		return
 	}
 
-	// Add the new album to the slice.
-	albums = append(albums, newAlbum)
-	c.IndentedJSON(http.StatusCreated, newAlbum)
+	err1 :=dbModel.SaveProfileDetails(newProfile)
+	if err1!=nil{
+		log.Fatalln("failed to persist data"+err1.Error())
+	}
+
+	c.IndentedJSON(http.StatusCreated, newProfile)
 }
 
 func postUrls(c *gin.Context) {
-	var newPofile profileUrl
+	var newPofile entities.ProfileUrl
 
-	// Call BindJSON to bind the received JSON to
-	// newAlbum.
 	if err := c.BindJSON(&newPofile); err != nil {
 		return
 	}
 
-	// Add the new album to the slice.
-	kafka.Producer(newPofile.ProfileUrls)
-	profileUrls = append(profileUrls, newPofile)
+	err1 :=dbModel.SaveProfileUrl(newPofile)
+	if err1!=nil{
+		log.Fatalln("failed to persist data"+err1.Error())
+	}
+	kafka.Producer(newPofile.ProfileUrl)
 	c.IndentedJSON(http.StatusCreated, newPofile)
 }
 
 func main() {
 	server := gin.Default()
 
-	server.GET("/all", getAlbums)
-	server.POST("/add", postAlbums)
+	server.GET("/all", getProfileDetails)
+	server.POST("/add", postProfileDetails)
 
 	server.GET("/urls/all", getProfileUrls)
 	server.POST("/urls/a", postUrls)
