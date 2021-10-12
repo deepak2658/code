@@ -6,6 +6,7 @@ import (
 	"example/web-service-gin/entities"
 	"fmt"
 	"log"
+	"time"
 )
 
 type ProfileDetailModel struct {
@@ -24,8 +25,8 @@ func (profileDetailModel ProfileDetailModel) FindAll() ([]entities.ProfileDetail
 			var profiles []entities.ProfileDetails
 			for rows.Next() {
 				var profile entities.ProfileDetails
-				rows.Scan(&profile.ProfileName,&profile.ProfileHandle,&profile.ProfileIconUrl,&profile.TagLine,&profile.Followers)
-				fmt.Printf(profile.ProfileName)
+				rows.Scan(&profile.ProfileUrl,&profile.ProfileName,&profile.ProfileHandle,&profile.ProfileIconUrl,&profile.TagLine,&profile.Followers)
+				fmt.Printf(profile.ProfileUrl)
 				profiles = append(profiles,profile)
 			}
 			return profiles,nil
@@ -33,13 +34,17 @@ func (profileDetailModel ProfileDetailModel) FindAll() ([]entities.ProfileDetail
 	}
 }
 
+
 func SaveProfileDetails(profileDetails entities.ProfileDetails) error {
 	db,e := config.GetDB()
 	if e!=nil{
 		log.Fatalln(e)
 	}
-	resultDetails, err:= db.Exec("insert into scraping_profileDetails (profileName, profileHandle, profileIconUrl, TagLine, followers) values (?,?,?,?,?);",
-		profileDetails.ProfileName,profileDetails.ProfileHandle,profileDetails.ProfileIconUrl,profileDetails.TagLine,profileDetails.Followers)
+	menuDate := time.Now().UTC()
+
+	resultDetails, err:= db.Exec("insert into scraping_profileDetails (profileUrl,profileName, profileHandle, profileIconUrl, TagLine, followers, createdOn, createdBy) values (?,?,?,?,?,?,?,?);",
+		profileDetails.ProfileUrl,
+		profileDetails.ProfileName,profileDetails.ProfileHandle,profileDetails.ProfileIconUrl,profileDetails.TagLine,profileDetails.Followers,menuDate,"go-scraper")
 	if err!=nil{
 		log.Panicln(err)
 		return err
@@ -49,7 +54,7 @@ func SaveProfileDetails(profileDetails entities.ProfileDetails) error {
 	}
 
 	for _, dog := range profileDetails.PostUrls {
-		resultLinks, err2 := db.Exec("insert into scraping_profileLinks (profileHandle, postLink) values(?,?);",profileDetails.ProfileHandle,dog)
+		resultLinks, err2 := db.Exec("insert into scraping_profileLinks (profileHandle, postLink, createdOn, createdBy) values(?,?,?,?);",profileDetails.ProfileHandle,dog,menuDate,"scraper_goMain")
 		if err2!=nil {
 			log.Panicln(err2)
 			return err

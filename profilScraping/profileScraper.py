@@ -84,9 +84,10 @@ def scrapData(url):
             hrefs.append(src)
     driver.close()
 
-    profile ={'profileName':profileName,'profileHandle':profileHandle,'profileIcon':profileIcon,'tagLine':tagLine,'followers':followers}
+    profile ={'profileUrl':url,'profileName':profileName,'profileHandle':profileHandle,'profileIcon':profileIcon,'tagLine':tagLine,'followers':followers}
     print(profile)
     r = requests.post(url="http://localhost:8080/add", json={
+        "profile_url": ""+url,
         "profile_name": profileName,
         "profile_handle": profileHandle,
         "profile_icon_url": profileIcon,

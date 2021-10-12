@@ -59,6 +59,6 @@ for link in hrefs:
     print(link)
     # scrapData(link)
     r = requests.post(url="http://localhost:8080/urls/a", json={
-        "profile_urls": link
+        "profile_url": link
     })
-    # print(r.text)
+    print(r.text)

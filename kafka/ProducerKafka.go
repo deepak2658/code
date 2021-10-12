@@ -15,7 +15,7 @@ func Producer(url string) {
 		Topic:    "prod.trell_crawler_profile",
 		Balancer: &kafka.LeastBytes{},
 	}
-
+	//print(url)
 	errWriter := w.WriteMessages(context.Background(),
 		kafka.Message{
 			//Key:   []byte("Key-"+string(index)),
