@@ -17,7 +17,7 @@ func (profileDetailModel ProfileDetailModel) FindAll() ([]entities.ProfileDetail
 	if err!=nil{
 		return nil, err
 	}else {
-		rows, err2  := db.Query("select * from scraping_profileDetails")
+		rows, err2  := db.Query("select * from scrapingProfileDetails")
 		if err2 !=nil{
 			return nil,err2
 		}else {
@@ -40,7 +40,7 @@ func SaveProfileDetails(profileDetails entities.ProfileDetails) error {
 		log.Fatalln(e)
 	}
 	//menuDate := time.Now().UTC()
-	var id int64
+	//var id int64
 
 	resultDetails, err:= db.Exec("insert into scrapingProfileDetails (profileUrl,profileName, profileHandle, profileIconUrl, TagLine, followers) values (?,?,?,?,?,?);",
 		profileDetails.ProfileUrl,
