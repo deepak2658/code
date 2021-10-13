@@ -6,7 +6,6 @@ import (
 	"example/web-service-gin/entities"
 	"fmt"
 	"log"
-	"time"
 )
 
 type ProfileDetailModel struct {
@@ -40,27 +39,27 @@ func SaveProfileDetails(profileDetails entities.ProfileDetails) error {
 	if e!=nil{
 		log.Fatalln(e)
 	}
-	menuDate := time.Now().UTC()
+	//menuDate := time.Now().UTC()
+	var id int64
 
-	resultDetails, err:= db.Exec("insert into scraping_profileDetails (profileUrl,profileName, profileHandle, profileIconUrl, TagLine, followers, createdOn, createdBy) values (?,?,?,?,?,?,?,?);",
+	resultDetails, err:= db.Exec("insert into scrapingProfileDetails (profileUrl,profileName, profileHandle, profileIconUrl, TagLine, followers) values (?,?,?,?,?,?);",
 		profileDetails.ProfileUrl,
-		profileDetails.ProfileName,profileDetails.ProfileHandle,profileDetails.ProfileIconUrl,profileDetails.TagLine,profileDetails.Followers,menuDate,"go-scraper")
+		profileDetails.ProfileName,profileDetails.ProfileHandle,profileDetails.ProfileIconUrl,profileDetails.TagLine,profileDetails.Followers)
 	if err!=nil{
 		log.Panicln(err)
 		return err
 	}else{
 		id,_  := resultDetails.LastInsertId()
 		fmt.Println(string(id))
-	}
-
-	for _, dog := range profileDetails.PostUrls {
-		resultLinks, err2 := db.Exec("insert into scraping_profileLinks (profileHandle, postLink, createdOn, createdBy) values(?,?,?,?);",profileDetails.ProfileHandle,dog,menuDate,"scraper_goMain")
-		if err2!=nil {
-			log.Panicln(err2)
-			return err
-		}else{
-			resultLinks.RowsAffected()
+		for _, dog := range profileDetails.PostUrls {
+			resultLinks, err2 := db.Exec("insert into scrapingProfileLinks (id,profileHandle, postLink) values(?,?,?);",id,profileDetails.ProfileHandle,dog)
+			if err2!=nil {
+				log.Panicln(err2)
+				return err
+			}else{
+				resultLinks.RowsAffected()
+			}
 		}
+		return nil
 	}
-	return nil
 }

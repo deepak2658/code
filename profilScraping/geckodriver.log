@@ -1624,3 +1624,512 @@ unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
 stop()@CDP.jsm:104
 close()@RemoteAgent.jsm:138
+1634105896735	geckodriver	INFO	Listening on 127.0.0.1:62791
+1634105899824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofile9tmKEx"
+*** You are running in headless mode.
+1634105901344	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofile9tmKEx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/4892596e-8f4f-4b8e-8842-01482775d229
+1634105904605	Marionette	INFO	Listening on port 62796
+1634105904777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634105917186	Marionette	INFO	Stopped listening on port 62796
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634105917837	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106177815	geckodriver	INFO	Listening on 127.0.0.1:54505
+1634106180928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileTbEB6q"
+*** You are running in headless mode.
+1634106182173	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileTbEB6q\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/3b875204-c183-474e-80c4-65f2b33c523c
+1634106185069	Marionette	INFO	Listening on port 54511
+1634106185224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106198710	Marionette	INFO	Stopped listening on port 54511
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106200244	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106211709	geckodriver	INFO	Listening on 127.0.0.1:59198
+1634106214810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileDUaAC2"
+*** You are running in headless mode.
+1634106215387	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileDUaAC2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/8d899464-6a85-4184-a699-ef7eefd46fc7
+1634106217669	Marionette	INFO	Listening on port 59205
+1634106218016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106230282	Marionette	INFO	Stopped listening on port 59205
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106230947	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106238092	geckodriver	INFO	Listening on 127.0.0.1:59293
+1634106241156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileGYfgok"
+*** You are running in headless mode.
+1634106241795	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileGYfgok\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/21db45d1-1fa5-4ad8-86a4-9edcaccb9efc
+1634106243881	Marionette	INFO	Listening on port 59300
+1634106244342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106257511	Marionette	INFO	Stopped listening on port 59300
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106258705	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106265102	geckodriver	INFO	Listening on 127.0.0.1:63792
+1634106268186	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileCsNB8c"
+*** You are running in headless mode.
+1634106268702	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileCsNB8c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/d98a49d8-2fcb-4beb-a10e-2002aa0ef7ca
+1634106270690	Marionette	INFO	Listening on port 63798
+1634106270888	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106284268	Marionette	INFO	Stopped listening on port 63798
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106285628	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106293151	geckodriver	INFO	Listening on 127.0.0.1:58355
+1634106296242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofile6eFo54"
+*** You are running in headless mode.
+1634106296776	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofile6eFo54\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/86409212-45b7-41fc-8757-86f15910d708
+1634106298692	Marionette	INFO	Listening on port 58360
+1634106298939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106312325	Marionette	INFO	Stopped listening on port 58360
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106313783	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106319602	geckodriver	INFO	Listening on 127.0.0.1:58430
+1634106322701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileWYgJPU"
+*** You are running in headless mode.
+1634106323312	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileWYgJPU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/54e1710c-1d94-48ca-ae0a-4b3a98029b25
+1634106325226	Marionette	INFO	Listening on port 58435
+1634106325395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106341537	Marionette	INFO	Stopped listening on port 58435
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106342706	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106348974	geckodriver	INFO	Listening on 127.0.0.1:61484
+1634106352036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileVLmYy6"
+*** You are running in headless mode.
+1634106352519	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileVLmYy6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/23dd20c9-acae-4881-8eb1-e1dbb2cf3a8f
+1634106354789	Marionette	INFO	Listening on port 61489
+1634106355244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106368684	Marionette	INFO	Stopped listening on port 61489
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106369395	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106377262	geckodriver	INFO	Listening on 127.0.0.1:61568
+1634106380377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileKgE5Ak"
+*** You are running in headless mode.
+1634106380891	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileKgE5Ak\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/68fcdc1d-1953-4898-b0d0-58ba4c0fe0b3
+1634106382840	Marionette	INFO	Listening on port 61575
+1634106383054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106395269	Marionette	INFO	Stopped listening on port 61575
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106395799	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106401628	geckodriver	INFO	Listening on 127.0.0.1:61649
+1634106404714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileCRJxPn"
+*** You are running in headless mode.
+1634106405277	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileCRJxPn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/b9c5b1b7-36dc-43c8-bf62-40b0ceaba0fa
+1634106407378	Marionette	INFO	Listening on port 61654
+1634106407452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106421061	Marionette	INFO	Stopped listening on port 61654
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x690023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1634106422312	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106426881	geckodriver	INFO	Listening on 127.0.0.1:61724
+1634106429980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileK6TKEP"
+*** You are running in headless mode.
+1634106430467	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileK6TKEP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/e2bbbf9a-5622-43a2-925c-b92f8a7a07ba
+1634106432546	Marionette	INFO	Listening on port 61729
+1634106432694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106445746	Marionette	INFO	Stopped listening on port 61729
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106447161	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106452060	geckodriver	INFO	Listening on 127.0.0.1:61801
+1634106455141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilekptsp9"
+*** You are running in headless mode.
+1634106455673	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilekptsp9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/46db08c2-9a54-418b-b5ae-0092e99c0695
+1634106457711	Marionette	INFO	Listening on port 61806
+1634106457818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106471147	Marionette	INFO	Stopped listening on port 61806
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106472493	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106484372	geckodriver	INFO	Listening on 127.0.0.1:49681
+1634106487438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileYJDcEY"
+*** You are running in headless mode.
+1634106487902	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileYJDcEY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/96ed1657-fab0-4862-bc83-c0f5feaa8547
+1634106489927	Marionette	INFO	Listening on port 49687
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390097,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390097,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106490147	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106503114	Marionette	INFO	Stopped listening on port 49687
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106504289	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106509243	geckodriver	INFO	Listening on 127.0.0.1:49760
+1634106512309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileOGXeJF"
+*** You are running in headless mode.
+1634106513046	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileOGXeJF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/1465579d-d31c-4ec1-8e16-0ef020ffae76
+1634106515158	Marionette	INFO	Listening on port 49765
+1634106515516	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106528849	Marionette	INFO	Stopped listening on port 49765
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106530191	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106534629	geckodriver	INFO	Listening on 127.0.0.1:49839
+1634106537751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofiletydMn6"
+*** You are running in headless mode.
+1634106538340	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofiletydMn6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/599a3223-d53c-4cae-943c-c36d1d6493d0
+1634106540423	Marionette	INFO	Listening on port 49844
+1634106540465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106573252	geckodriver	INFO	Listening on 127.0.0.1:49923
+1634106576346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilexRPAqC"
+*** You are running in headless mode.
+1634106577138	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilexRPAqC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/a5708939-653b-4de8-a68c-5f744a69d63b
+1634106579658	Marionette	INFO	Listening on port 49928
+1634106580098	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1634106593419	Marionette	INFO	Stopped listening on port 49928
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106594830	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106601937	geckodriver	INFO	Listening on 127.0.0.1:55333
+1634106605024	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileJw4T3y"
+*** You are running in headless mode.
+1634106605554	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileJw4T3y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/4fd35e52-c18a-447f-8f01-27e7bfb132c3
+1634106607553	Marionette	INFO	Listening on port 55340
+1634106607725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106620714	Marionette	INFO	Stopped listening on port 55340
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106621910	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106629277	geckodriver	INFO	Listening on 127.0.0.1:55425
+1634106632371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilerb4shE"
+*** You are running in headless mode.
+1634106632900	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilerb4shE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/cdcede85-887f-44e2-a6f1-b2adb6656fc3
+1634106635120	Marionette	INFO	Listening on port 55432
+1634106635566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106649642	Marionette	INFO	Stopped listening on port 55432
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106650853	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106659891	geckodriver	INFO	Listening on 127.0.0.1:61700
+1634106662987	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilePOB1xU"
+*** You are running in headless mode.
+1634106663697	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilePOB1xU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/813f0173-79b5-4cfe-9cc0-909499cddb98
+1634106665923	Marionette	INFO	Listening on port 61705
+1634106666226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106679408	Marionette	INFO	Stopped listening on port 61705
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106680682	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106687606	geckodriver	INFO	Listening on 127.0.0.1:61776
+1634106690690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofile4W0Xxu"
+*** You are running in headless mode.
+1634106691422	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofile4W0Xxu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/75a297da-85b1-45b9-9ee6-5a7f6aaf3afd
+1634106693607	Marionette	INFO	Listening on port 61781
+1634106693955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106707473	Marionette	INFO	Stopped listening on port 61781
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+1634106708646	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106714046	geckodriver	INFO	Listening on 127.0.0.1:61860
+1634106717140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileQN2svH"
+*** You are running in headless mode.
+1634106717657	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileQN2svH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/7c9bf524-8073-42ab-b4e6-3b68524c8272
+1634106719820	Marionette	INFO	Listening on port 61871
+1634106720371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106733467	Marionette	INFO	Stopped listening on port 61871
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106734819	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106740675	geckodriver	INFO	Listening on 127.0.0.1:61951
+1634106743787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilecNyIj0"
+*** You are running in headless mode.
+1634106744359	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilecNyIj0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/ef35c553-76e4-4bd4-8b1b-13029b5b6104
+1634106746346	Marionette	INFO	Listening on port 61956
+1634106746520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106760566	Marionette	INFO	Stopped listening on port 61956
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106761973	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106767922	geckodriver	INFO	Listening on 127.0.0.1:62026
+1634106770990	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileAu8qwJ"
+*** You are running in headless mode.
+1634106771536	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileAu8qwJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/dca63df2-5e94-4310-8077-08f0865a8c24
+1634106773551	Marionette	INFO	Listening on port 62031
+1634106773690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106787151	Marionette	INFO	Stopped listening on port 62031
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106788535	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106794408	geckodriver	INFO	Listening on 127.0.0.1:62103
+1634106797474	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileI58YD9"
+*** You are running in headless mode.
+1634106798116	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileI58YD9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/2c6385a3-751e-418c-8b1f-2449a94ec29a
+1634106800189	Marionette	INFO	Listening on port 62108
+1634106800706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106814243	Marionette	INFO	Stopped listening on port 62108
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106815724	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106822363	geckodriver	INFO	Listening on 127.0.0.1:62177
+1634106825455	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilev71ot0"
+*** You are running in headless mode.
+1634106826203	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofilev71ot0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/9a508a36-277f-457a-b737-b91dbc3997a9
+1634106828385	Marionette	INFO	Listening on port 62182
+1634106828634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634106840992	Marionette	INFO	Stopped listening on port 62182
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634106841683	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634106846557	geckodriver	INFO	Listening on 127.0.0.1:62258
+1634106849649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "9222" "-no-remote" "-profile" "C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileHPIWip"
+*** You are running in headless mode.
+1634106850318	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deep8\\AppData\\Local\\Temp\\rust_mozprofileHPIWip\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:9222/devtools/browser/5a054ae5-b77c-41c7-ad97-6dc93d9ff02d
+1634106852531	Marionette	INFO	Listening on port 62263
+1634106852872	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
