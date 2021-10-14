@@ -8,11 +8,11 @@ import (
 
 func GetDB() (db *sql.DB,err error){
 
-	dbName := "trellDb"
-	dbUser := "trell"
-	dbPass := "<=#trell@rtghvcxdfty@2017#=>"
-	dbHost := "trell-mysql-db-staging.cyqwbanzexpw.ap-south-1.rds.amazonaws.com"
-	dbPort := "3306"
+	dbName := ##
+	dbUser := ##
+	dbPass := ##
+	dbHost := ##
+	dbPort := ##
 	url := dbUser + ":" + dbPass + "@tcp(" + dbHost + ":" + dbPort + ")/" + dbName + "?multiStatements=true&parseTime=true"
 	//dbName := "trellDb"
 	//dbUser := "trell"
